@@ -1,4 +1,4 @@
-#intro {
+#projects {
     height: calc(100vh - 3rem);
     width: 100vw;
     margin: 0 auto;
@@ -8,48 +8,29 @@
     padding: 3rem 1rem;
 }
 
-.introContent {
+.projectsContent {
     padding: 2rem;
     font-size: 2rem;
     font-weight: 300;
     width: 50%;
 }
 
-.introPara {
+.projectPara {
     text-align: left;
     color: rgb(173, 173, 173);
     font-size: 1.4rem;
-    padding: 10px;
+    padding: 1.8rem 1rem;
 }
 
-.about {
+.projectHeader {
     font-weight: bold;
     color: rgb(255, 255, 255);
     font-size: 5rem;
     padding: 40px 10px;
 }
 
-.hello {
+.projectpara {
     color: rgb(255, 255, 255);
     font-size: 3rem;
     padding: 40px 10px;
-}
-
-.name {
-    font-weight: bold;
-    color: rgb(255, 251, 0);
-    font-size: 3rem;
-}
-
-.dash {
-    color: gray;
-}
-
-
-.img {
-    object-fit: cover;
-    max-width: 70%;
-    max-height: 70%;
-    margin-left: 350px;
-    border-radius: 50px;
 }
