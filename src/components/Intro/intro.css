@@ -1,0 +1,43 @@
+#intro {
+    height: calc(100vh - 3rem);
+    width: 100vw;
+    max-width: 75rem;
+    margin: 0 auto;
+    overflow: hidden;
+    display: flex;
+    flex-direction: row;
+    padding: 3rem 1rem;
+}
+
+.introContent {
+    padding: 2rem;
+    font-size: 2rem;
+    font-weight: 300;
+    width: 50%;
+}
+
+.introPara {
+    text-align: left;
+    color: gray;
+    font-size: 1.4rem;
+    padding: 1.8rem 1rem;
+}
+
+.about {
+    font-weight: bold;
+    color: rgb(255, 255, 255);
+    font-size: 2.2rem;
+    padding: 40px 10px;
+}
+
+.dash {
+    color: gray;
+}
+
+.img {
+    object-fit: cover;
+    max-width: 70%;
+    max-height: 90%;
+    margin-left: auto; /* Add this to push the image to the right */
+    border-radius: -25%;
+}
