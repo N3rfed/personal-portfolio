@@ -5,7 +5,7 @@
     overflow: hidden;
     display: flex;
     flex-direction: row;
-    padding: 3rem 1rem;
+    padding: 3rem;
 }
 
 .projectsContent {
@@ -13,13 +13,6 @@
     font-size: 2rem;
     font-weight: 300;
     width: 50%;
-}
-
-.projectPara {
-    text-align: left;
-    color: rgb(173, 173, 173);
-    font-size: 1.4rem;
-    padding: 1.8rem 1rem;
 }
 
 .projectHeader {
