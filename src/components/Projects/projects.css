@@ -31,3 +31,10 @@
 .dash {
     color: gray;
 }
+
+.projectDesc {
+    text-align: left;
+    color: rgb(173, 173, 173);
+    font-size: 1.4rem;
+    padding: 40px 10px;
+}

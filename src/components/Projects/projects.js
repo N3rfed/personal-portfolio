@@ -6,9 +6,12 @@ const Projects = () => {
         <section id="projects">
             <div className="projectContent">
                 <p className="projectHeader">/ Projects<span className="dash"> </span></p>
-                <p className="projectPara">UFFSA Discord WolfBot</p>
-                <p className="projectPara">Sudoku</p>
-                <p className="projectPara">Personal Portfolio Website</p>
+                <span className="projectPara">UFFSA Discord WolfBot</span>
+                <p className="projectDesc">Discord bot for the UFFSA Discord server</p>
+                <span className="projectPara">Sudoku</span>
+                <p className="projectDesc">Sudoku game</p>
+                <span className="projectPara">Personal Portfolio Website</span>
+                <p className="projectDesc">The website you're on</p>
             </div>
         </section>
     )

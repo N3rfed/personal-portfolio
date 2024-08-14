@@ -1,7 +1,7 @@
 .navbar {
     height: 5rem;
     width: 100vw;
-    /* max-width: 75rem; */
+    max-width: 250rem;
     margin: 0 auto;
     padding: 1rem 2rem;
     display: flex;
@@ -13,9 +13,10 @@
 }
 
 .logo {
-    font-size: 24px;
     font-weight: bold;
-    object-fit: contain;
+    object-fit: cover;
+    height:25rem;
+    width:30rem;
     color: white;
 }
 
