@@ -15,8 +15,9 @@
 .logo {
     font-weight: bold;
     object-fit: cover;
-    height:25rem;
-    width:30rem;
+    height:12.5rem;
+    width:12.5rem;
+    margin-top: -25px;
     color: white;
 }
 
@@ -30,22 +31,22 @@
 
 
 .desktopMenuListItem:hover {
-    color: #ca75cab5;
+    color: #66FCF1;
     padding-bottom: 0.5rem;
-    border-bottom: 3px solid #ca75cab5;
+    border-bottom: 3px solid #66FCF1;
 }
 
 .active {
-    color: #ca75cab5;
+    color: #66FCF1;
     padding-bottom: 0.5rem;
-    border-bottom: 3px solid #ca75cab5;
+    border-bottom: 3px solid #66FCF1;
 }
 
 
 .desktopMenuBtn {
-    background: #fff;
-    color: black;
-    border: none;
+    background: rgb(31, 31, 31);
+    color: rgb(255, 255, 255);
+    border: 3px solid #45A29E;
     display: flex;
     align-items: center;
     justify-content: center;

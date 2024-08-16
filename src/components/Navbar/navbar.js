@@ -14,7 +14,7 @@ const Navbar = () => {
                 <Link className="desktopMenuListItem">Skills</Link>
             </div>
             <button className='desktopMenuBtn'>
-                <img src="" alt="" className="img.desktopMenuImg" /> Contact Me!</button>
+                <img src="" alt="" className="img.desktopMenuImg" />Contact Me!</button>
         </nav>
     )
 }

@@ -37,7 +37,7 @@
 
 .name {
     font-weight: bold;
-    color: rgb(255, 251, 0);
+    color: rgb(102, 252, 241);
     font-size: 3rem;
 }
 
@@ -54,10 +54,3 @@
     border-radius: 50px;
 }
 
-.bg-img{
-    background-image:url(https://i.pinimg.com/originals/b5/d3/69/b5d3692a872936d05a3d770e5327c6ec.gif);
-    background-position: top;
-    background-repeat: no-repeat;
-    background-size: 200rem;
-    filter:blur(1.5rem);
-}
