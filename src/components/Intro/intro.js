@@ -2,6 +2,7 @@ import React from 'react';
 import './intro.css';
 import bg from '../../assets/jaden.jpg';
 
+
 const Intro = () => {
     return (
         <section id="intro">
@@ -9,8 +10,12 @@ const Intro = () => {
                 <p className="about">/ About Me<span className="dash"> </span></p>
                 <span className="hello">Hey! My name is</span>
                 <span className="name">Jaden.</span>
-                <p className="introPara">I am a third year in Computer Science with additional experience 
-                    in creating graphics and other visuals!</p>
+                <p className="introPara">I am a third year university student majoring in Computer Science. I am
+                    specifically interested in learning more about Game Development and AI.
+                    
+                    Other than programming, I love editing videos for YouTube, playing video games, 
+                    watching anime, working out, and hanging out with friends. 
+                     </p>
             </div>
             <div className="img">
                 <img src={bg} alt="jaden" className="img" />

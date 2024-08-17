@@ -9,7 +9,8 @@
     justify-content: space-between;
     top: 0;
     z-index: 3;
-   
+    position:fixed;
+    background-color: rgb(20, 20, 20);
 }
 
 .logo {

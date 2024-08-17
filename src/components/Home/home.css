@@ -5,7 +5,8 @@
     overflow: hidden;
     display: flex;
     flex-direction: row;
-    padding: 3rem 1rem;    
+    padding: 3rem 1rem;   
+    margin-top: 10%; 
 }
 
 .homeContent {
