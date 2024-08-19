@@ -8,7 +8,7 @@ const Intro = () => {
         <section id="intro">
             <div className="introContent">
                 <p className="about">/ About Me<span className="dash"> </span></p>
-                <span className="hello">Hey! My name is</span>
+                <span className="hello">Hi! My name is</span>
                 <span className="name">Jaden.</span>
                 <p className="introPara">I am a third year university student majoring in Computer Science. I am
                     specifically interested in learning more about Game Development and AI.

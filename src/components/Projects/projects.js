@@ -1,5 +1,7 @@
 import React from 'react';
 import './projects.css';
+import githubLogo from '../../assets/github.png';
+
 
 const Projects = () => {
     return (
@@ -19,6 +21,8 @@ const Projects = () => {
                 <span className="projectPara">Personal Portfolio Website</span>
                 <p className="projectDesc">Uses React JS, HTML, and CSS to create a website showcasing
                     my background, personal projects, and skills.</p>
+                <div className="github-logo"><img src={githubLogo} alt="github" className="github-logo" /></div>
+
             </div>
         </section>
     )
