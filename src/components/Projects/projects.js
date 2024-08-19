@@ -5,13 +5,20 @@ const Projects = () => {
     return (
         <section id="projects">
             <div className="projectContent">
-                <p className="projectHeader">/ Projects<span className="dash"> </span></p>
+                <h2 className="projectHeader">/ Projects<span className="dash"> </span></h2>
                 <span className="projectPara">UFFSA Discord WolfBot</span>
-                <p className="projectDesc">Discord bot for the UFFSA Discord server</p>
+                <p className="projectDesc">Discord bot for the UFFSA Discord server. The bot uses the Google
+                    Calendar API to notify server members about events that are the day of and throughout the week. 
+                    In addition, the bot is able to join voice channels to play music.
+                </p>
                 <span className="projectPara">Sudoku</span>
-                <p className="projectDesc">Sudoku game</p>
+                <p className="projectDesc">A typical Sudoku game that generates a 9x9 grid with randomly filled 
+                    cells in 3x3 subgrids. The game has a simple user interface that allows the player to reset the
+                    board, choose a difficulty, and exit the program. In addition, the game also has a win and loss
+                    screen depending on if the player correctly or incorrectly fills in each empty cell.</p>
                 <span className="projectPara">Personal Portfolio Website</span>
-                <p className="projectDesc">The website you're on</p>
+                <p className="projectDesc">Uses React JS, HTML, and CSS to create a website showcasing
+                    my background, personal projects, and skills.</p>
             </div>
         </section>
     )
