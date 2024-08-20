@@ -50,3 +50,14 @@
     right:7.5%;
     top:-5%;
 }
+
+/* project cards */
+.card-wrapper {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 10px;
+    justify-content: center;
+    max-width: 100px;
+    margin: 50 auto;
+}
+
