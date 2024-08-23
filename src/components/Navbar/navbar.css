@@ -47,14 +47,18 @@
 .desktopMenuBtn {
     background: #45A29E;
     color: rgb(255, 255, 255);
-    border: 3px solid #45A29E;
+    border: none;
     display: flex;
     align-items: center;
     justify-content: center;
     padding: 0rem 1rem;
     border-radius: 5rem;
     font-size: 24px;
-   
+}
+
+.desktopMenuBtn:hover {
+    background: #5acfc9;
+    color: rgb(255, 255, 255);
 }
 
 .desktopMenuImg {
