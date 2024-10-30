@@ -12,9 +12,10 @@ const Navbar = () => {
                 <ScrollLink className="desktopMenuListItem" to="intro" smooth={true} duration={500}>About</ScrollLink>
                 <ScrollLink className="desktopMenuListItem" to="projects" smooth={true} duration={500}>Projects</ScrollLink>
                 <ScrollLink className="desktopMenuListItem" to="skills" smooth={true} duration={500}>Skills</ScrollLink>
+
             </div>
-            <button className='desktopMenuBtn'>
-                <img src="" alt="" className="img.desktopMenuImg" />Contact Me!</button>
+            <ScrollLink className="" to="contact" smooth={true} duration={500}><button className='desktopMenuBtn'>
+                <img src="" alt="" className="img.desktopMenuImg" />Contact Me!</button></ScrollLink>
         </nav>
     )
 }
