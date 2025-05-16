@@ -43,10 +43,15 @@
 }
 
 .submitBtn{
-    background: white;
+    background: #45A29E;
+    color: rgb(255, 255, 255);
     border:none;
     border-radius: 0.5rem;
     padding:0.75rem 3.5rem;
     margin: 2rem;
+}
 
+.submitBtn:hover {
+    background: #5acfc9;
+    color: rgb(255, 255, 255);
 }
