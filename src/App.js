@@ -1,7 +1,7 @@
 import Navbar from "./components/Navbar/navbar";
 import Intro from "./components/Intro/intro";
 import Projects from "./components/Projects/projects"
-import Skills from "./components/Skills/skills"
+// import Skills from "./components/Skills/skills"
 import Home from "./components/Home/home";
 import Contact from "./components/Contact/contact"
 import { motion } from "framer-motion";

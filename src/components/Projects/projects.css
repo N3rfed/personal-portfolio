@@ -1,5 +1,5 @@
 #projects {
-    height: calc(100vh - 3rem);
+    height: calc(100vh - rem);
     width: 100vw;
     margin: 0 auto;
     overflow: hidden;
@@ -42,11 +42,11 @@
 
 .card-wrapper {
     display: grid;
-    grid-template-columns: repeat(3, 1fr);
+    grid-template-columns: repeat(4, 1fr);
     gap: 20px;
     justify-content: left;
-    max-width: 100px;
-    margin: 50 ;
+    margin: 50px auto;
+    max-width: 1000px
 }
 
 .card {

@@ -43,6 +43,51 @@ const Projects = () => {
                         <p className="projectDesc">Uses React JS, HTML, and CSS to create a website showcasing
                         my background, personal projects, and skills.</p>
                     </div>
+                    <div className="card">
+                        <div className="box">                        
+                        <a href="https://github.com/N3rfed/minesweeper2024" target="_blank" rel="noopener noreferrer">
+                            <img src={githubLogo} alt="github" className="githubLogo" />
+                        </a>
+                        </div>
+                        <h2 className="projectPara">Minesweeper</h2>
+                        <p className="projectDesc">PLACEHOLDER</p>
+                    </div>
+                    <div className="card">
+                        <div className="box">                        
+                        <a href="https://github.com/N3rfed/minesweeper2024" target="_blank" rel="noopener noreferrer">
+                            <img src={githubLogo} alt="github" className="githubLogo" />
+                        </a>
+                        </div>
+                        <h2 className="projectPara">BlazeNav</h2>
+                        <p className="projectDesc">PLACEHOLDER</p>
+                    </div>
+                    <div className="card">
+                        <div className="box">                        
+                        <a href="https://github.com/N3rfed/minesweeper2024" target="_blank" rel="noopener noreferrer">
+                            <img src={githubLogo} alt="github" className="githubLogo" />
+                        </a>
+                        </div>
+                        <h2 className="projectPara">ShriekPeek</h2>
+                        <p className="projectDesc">PLACEHOLDER</p>
+                    </div>
+                    <div className="card">
+                        <div className="box">                        
+                        <a href="https://github.com/N3rfed/minesweeper2024" target="_blank" rel="noopener noreferrer">
+                            <img src={githubLogo} alt="github" className="githubLogo" />
+                        </a>
+                        </div>
+                        <h2 className="projectPara">Playlistify</h2>
+                        <p className="projectDesc">PLACEHOLDER</p>
+                    </div>
+                    <div className="card">
+                        <div className="box">                        
+                        <a href="https://github.com/N3rfed/minesweeper2024" target="_blank" rel="noopener noreferrer">
+                            <img src={githubLogo} alt="github" className="githubLogo" />
+                        </a>
+                        </div>
+                        <h2 className="projectPara">NuMe</h2>
+                        <p className="projectDesc">PLACEHOLDER</p>
+                    </div>
                 </div>
             </div>
         </section>
