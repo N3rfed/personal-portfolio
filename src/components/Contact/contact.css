@@ -1,13 +1,30 @@
-#contactPage{
-    min-height: calc(100vh - 4rem);
-    width: 100vw;
-    max-width: 60rem;
-    margin: 0 auto;
-    text-align: center;
+#contact {
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
+    
+    background-color: rgba(255, 255, 255, 0.05);
+    padding: 3rem;
+    border-radius: 25px;
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    box-shadow: 0 10px 30px rgba(0,0,0,0.5);
+    backdrop-filter: blur(5px); 
+    
+    width: 90%;
+    max-width: 50rem;
+    margin-top: 2rem;
+}
+
+#contactPage {
+    min-height: calc(100vh - 4rem);
+    width: 100%;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 0 1rem;
 }
 
 .contactPageTitle{
@@ -30,18 +47,25 @@
     width: 90vw;
     max-width: 60rem;
 }
-.name, .email, .msg{
+.name, .email, .msg {
     font-size: medium;
-    width:100%;
+    width: 100%;
     max-width: 40rem;
-    margin:0.5rem;
-    padding: 0.5rem 1rem;
+    margin: 0.5rem 0; 
+    box-sizing: border-box; 
+    padding: 1rem;
     color: white;
-    border: none;
+    border: 1px solid rgba(255, 255, 255, 0.1);
     border-radius: 0.5rem;
-    background:rgb(40, 40, 40)
+    background: rgba(0, 0, 0, 0.5);
+    transition: border-color 0.3s, box-shadow 0.3s;
 }
 
+.name:focus, .email:focus, .msg:focus {
+    outline: none;
+    border-color: #66FCF1;
+    box-shadow: 0 0 10px rgba(102, 252, 241, 0.2);
+}
 .submitBtn{
     background: #45A29E;
     color: rgb(255, 255, 255);
@@ -54,4 +78,16 @@
 .submitBtn:hover {
     background: #5acfc9;
     color: rgb(255, 255, 255);
+}
+
+/* Mobile adjustments */
+@media (max-width: 768px) {
+    #contact {
+        padding: 1.5rem;
+        width: 95%;
+    }
+    
+    .contactPageTitle {
+        font-size: 2.5rem;
+    }
 }

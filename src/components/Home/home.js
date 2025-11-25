@@ -1,17 +1,27 @@
 import React from 'react';
 import './home.css';
-import gif from '../../assets/homegif.gif'
-
+import gif from '../../assets/homegif.gif';
+import ParticlesBackground from './ParticleBackground';
 const Home = () => {
     return (
         <section id="home">
-            <div className="homeContent">
-            <div className="home-gif"><img src={gif} alt="gif" className="home-gif"/></div>
-                <div className="bg-img"></div>
-                <p className="homeHeader">WELCOME<span className="dash"> </span></p>
-                <p className="homePara">To my Personal Portfolio website.</p>
+            <ParticlesBackground />
+            <div className="container">
+                
+                {/* Left Side: Text */}
+                <div className="home-text-section">
+                    <p className="homeHeader">WELCOME<span className="dash"> </span></p>
+                    <p className="homePara">To my Personal Portfolio website.</p>
+                </div>
+
+                {/* Right Side: GIF */}
+                <div className="home-visual-section">
+                    <img src={gif} alt="Abstract geometric shape" className="home-gif"/>
+                </div>
+                
             </div>
         </section>
-    )
+    );
 }
+
 export default Home;

@@ -1,68 +1,96 @@
 #home {
-    height: calc(100vh - 3rem);
-    width: 100vw;
-    margin: 0 auto;
-    overflow: hidden;
+    position: relative;
+    width: 100%;
+    min-height: 100vh; 
     display: flex;
-    flex-direction: row;
-    padding: 3rem 1rem;   
-    margin-top: 3.5%; 
+    justify-content: center; 
+    align-items: center;   
+    overflow: hidden;       
 }
 
-.homeContent {
-    padding: 2rem;
-    font-size: 2rem;
-    font-weight: 300;
-    width: 50%;
+.bg-img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-image: url(homebg.png); 
+    background-position: center;
+    background-size: cover; 
+    filter: blur(8px);
+    -webkit-filter: blur(8px);
+    z-index: 0; 
+}
+
+.container {
+    position: relative;
+    z-index: 1;
+    width: 90%;         
+    max-width: 1600px;   
+    display: flex;    
+    justify-content: space-between; 
+    align-items: center; 
+    flex-wrap: wrap;     
+    gap: 4rem;
+}
+
+.home-text-section {
+    flex: 1;
+    min-width: 300px;
+    text-align: left;
 }
 
 .homeHeader {
     font-weight: bold;
     color: rgb(102, 252, 241);
-    font-size: 7rem;
-    padding: 40px 10px;
-    position: relative;
-    bottom: 95%;
-    
+    font-size: clamp(3rem, 5vw, 7rem);
+    margin: 0;
+    line-height: 1.1;
 }
 
 .homePara {
     color: rgb(255, 255, 255);
-    font-size: 3rem;
-    padding: 40px 10px;
-    position:relative;
-    bottom:109%;
+    font-size: clamp(1.5rem, 3vw, 3rem);
+    margin-top: 1rem;
 }
 
-.dash {
-    color: gray;
+.home-visual-section {
+    flex: 1;
+    display: flex;
+    justify-content: right;
+    min-width: 300px;
 }
 
-.home-gif{
-    object-fit: cover;
-    max-width: 70%;
-    max-height: 70%;
-    margin-left: 250px;
-    border-radius: 40px;
-    position:relative;
-    left:55%;
-    bottom:7%;
-    z-index: 1;
+.home-gif {
+    width: 100%;
+    max-width: 500px; 
+    height: auto;
+    object-fit: contain;
 }
 
+/* Mobile Optimization */
+@media (max-width: 768px) {
+    .container {
+        flex-direction: column-reverse;
+        text-align: center;
+        padding-top: 80px;
+    }
 
-.bg-img{
-    background-image: url(homebg.png);
-    background-position: center;
-    background-repeat: no-repeat;
-    margin-top:-10rem;
-    height: 60%;
-    width: 500%;
-    background-size: 500rem;
-    position:relative;
-    bottom:45%;
-    right:30%;
-    filter:blur(8px);
-    -webkit-filter: blur(8px);
-    z-index: 0;    
+    .home-text-section {
+        text-align: center;
+    }
+}
+
+#tsparticles {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 0;
+}
+
+.container {
+    position: relative;
+    z-index: 1; 
 }
