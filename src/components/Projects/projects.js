@@ -106,6 +106,16 @@ const Projects = () => {
                         <h2 className="projectPara">ScootAGator</h2>
                         <p className="projectDesc">Scooter app made for University of Florida students that integrates weather radars and live polling service to determine parking availability.</p>
                     </div>
+                     {/* Project 10 */}
+                     <div className="card">
+                        <div className="box">                        
+                            <a href="https://github.com/ernestol7/CIS4930-Final-Project" target="_blank" rel="noopener noreferrer">
+                                <img src={githubLogo} alt="github" className="githubLogo" />
+                            </a>
+                        </div>
+                        <h2 className="projectPara">Credit Card Fraud Detector </h2>
+                        <p className="projectDesc">Compared 5 different machine learning models to find the best predictor for a large data set of legitimate and fraudulent credit card transactions.</p>
+                    </div>
                 </div>
             </div>
         </section>
