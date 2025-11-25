@@ -1,21 +1,32 @@
 {
   "files": {
-    "main.css": "/personal-portfolio/static/css/main.bfe37ac8.css",
-    "main.js": "/personal-portfolio/static/js/main.4b84c09a.js",
+    "main.css": "/personal-portfolio/static/css/main.32a25270.css",
+    "main.js": "/personal-portfolio/static/js/main.c6a95a17.js",
     "static/media/homegif.gif": "/personal-portfolio/static/media/homegif.c49f9f13ee1613b5ed47.gif",
-    "static/media/jaden.jpg": "/personal-portfolio/static/media/jaden.ab2075dc037710ee5c1c.jpg",
+    "static/media/matplotlibLogo.png": "/personal-portfolio/static/media/matplotlibLogo.6a0679f4afd7259e605d.png",
+    "static/media/jaden.jpg": "/personal-portfolio/static/media/jaden.feb0605c1db24042ffb1.jpg",
+    "static/media/reactLogo.png": "/personal-portfolio/static/media/reactLogo.dacbd3da021208c01f3c.png",
     "static/media/homebg.png": "/personal-portfolio/static/media/homebg.71844478e27d99a377a0.png",
+    "static/media/resume.pdf": "/personal-portfolio/static/media/resume.96584ed5b284b9d802b3.pdf",
+    "static/media/sklearnLogo.png": "/personal-portfolio/static/media/sklearnLogo.7c81e0aa80c1924e4e7b.png",
+    "static/media/vscodeLogo.png": "/personal-portfolio/static/media/vscodeLogo.8e88067c6a37b72b7b12.png",
     "static/media/MATLABLogo.png": "/personal-portfolio/static/media/MATLABLogo.00dbf274028894e4489a.png",
     "static/media/CSSLogo.png": "/personal-portfolio/static/media/CSSLogo.77a0f1f3f834c4d99db7.png",
     "static/media/javaLogo.png": "/personal-portfolio/static/media/javaLogo.a7eab1f3532ea2fb4849.png",
+    "static/media/seabornLogo.png": "/personal-portfolio/static/media/seabornLogo.397eba521a1046417eea.png",
+    "static/media/photoshopLogo.png": "/personal-portfolio/static/media/photoshopLogo.5bea1cfefc23110f17c9.png",
     "static/media/python.png": "/personal-portfolio/static/media/python.2667a7dacb6da47d8302.png",
+    "static/media/vegasproLogo.png": "/personal-portfolio/static/media/vegasproLogo.7a7d45a5f9db4bed1ea8.png",
+    "static/media/nodejsLogo.png": "/personal-portfolio/static/media/nodejsLogo.a01e735b3901bbade4f7.png",
     "static/media/CLogo.png": "/personal-portfolio/static/media/CLogo.93345ad841fad3c8d39f.png",
+    "static/media/nextjsLogo.png": "/personal-portfolio/static/media/nextjsLogo.45b94c627b48bdc07782.png",
+    "static/media/gitLogo.png": "/personal-portfolio/static/media/gitLogo.234cc3638b0010d4892c.png",
     "index.html": "/personal-portfolio/index.html",
-    "main.bfe37ac8.css.map": "/personal-portfolio/static/css/main.bfe37ac8.css.map",
-    "main.4b84c09a.js.map": "/personal-portfolio/static/js/main.4b84c09a.js.map"
+    "main.32a25270.css.map": "/personal-portfolio/static/css/main.32a25270.css.map",
+    "main.c6a95a17.js.map": "/personal-portfolio/static/js/main.c6a95a17.js.map"
   },
   "entrypoints": [
-    "static/css/main.bfe37ac8.css",
-    "static/js/main.4b84c09a.js"
+    "static/css/main.32a25270.css",
+    "static/js/main.c6a95a17.js"
   ]
 }
