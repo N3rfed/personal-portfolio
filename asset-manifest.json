@@ -1,12 +1,12 @@
 {
   "files": {
-    "main.css": "/personal-portfolio/static/css/main.32a25270.css",
-    "main.js": "/personal-portfolio/static/js/main.c6a95a17.js",
+    "main.css": "/personal-portfolio/static/css/main.5294edcb.css",
+    "main.js": "/personal-portfolio/static/js/main.770b8970.js",
     "static/media/homegif.gif": "/personal-portfolio/static/media/homegif.c49f9f13ee1613b5ed47.gif",
     "static/media/matplotlibLogo.png": "/personal-portfolio/static/media/matplotlibLogo.6a0679f4afd7259e605d.png",
-    "static/media/jaden.jpg": "/personal-portfolio/static/media/jaden.feb0605c1db24042ffb1.jpg",
     "static/media/reactLogo.png": "/personal-portfolio/static/media/reactLogo.dacbd3da021208c01f3c.png",
     "static/media/homebg.png": "/personal-portfolio/static/media/homebg.71844478e27d99a377a0.png",
+    "static/media/jaden.jpg": "/personal-portfolio/static/media/jaden.48cd1393e41045df2d2a.jpg",
     "static/media/resume.pdf": "/personal-portfolio/static/media/resume.96584ed5b284b9d802b3.pdf",
     "static/media/sklearnLogo.png": "/personal-portfolio/static/media/sklearnLogo.7c81e0aa80c1924e4e7b.png",
     "static/media/vscodeLogo.png": "/personal-portfolio/static/media/vscodeLogo.8e88067c6a37b72b7b12.png",
@@ -22,11 +22,11 @@
     "static/media/nextjsLogo.png": "/personal-portfolio/static/media/nextjsLogo.45b94c627b48bdc07782.png",
     "static/media/gitLogo.png": "/personal-portfolio/static/media/gitLogo.234cc3638b0010d4892c.png",
     "index.html": "/personal-portfolio/index.html",
-    "main.32a25270.css.map": "/personal-portfolio/static/css/main.32a25270.css.map",
-    "main.c6a95a17.js.map": "/personal-portfolio/static/js/main.c6a95a17.js.map"
+    "main.5294edcb.css.map": "/personal-portfolio/static/css/main.5294edcb.css.map",
+    "main.770b8970.js.map": "/personal-portfolio/static/js/main.770b8970.js.map"
   },
   "entrypoints": [
-    "static/css/main.32a25270.css",
-    "static/js/main.c6a95a17.js"
+    "static/css/main.5294edcb.css",
+    "static/js/main.770b8970.js"
   ]
 }
